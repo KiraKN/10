@@ -57,7 +57,7 @@ public class UpdateTaskActivity extends AppCompatActivity {
                 switch (view.getId()) {
                     case R.id.button_update:
                         // обновление задачи
-                        // решение дошней задачи
+                        // решение домашней задачи
                         dataBaseHelper.updateNotes(taskName.getText().toString(), taskDescription.getText().toString(), id); // обновление записи в БД по id
                         break;
                     case R.id.button_delete:
